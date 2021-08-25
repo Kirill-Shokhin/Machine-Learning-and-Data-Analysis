@@ -13,3 +13,60 @@
 
 
 <a href="https://nbviewer.jupyter.org/github/Kirill-Shokhin/Coursera-ML-/blob/main/Прикладные%20задачи%20анализа%20данных/Прогнозирование%20уровня%20средней%20заработной%20платы%20в%20России.ipynb" >Прогнозирование средней з\п в России</a>
+
+
+
+<link rel="stylesheet" href="libs/magnific/magnific-popup.css">
+<script src="libs/magnific/jquery.magnific-popup.js"></script>
+
+$('.gallery').magnificPopup({type: 'image'});
+
+Пролистывание:
+$(document).ready(function(){
+
+	$('.gallery').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] 
+		},
+	});
+
+});
+
+
+<a class="gallery" href="img/quality-sertificate-1.png">
+<img src="img/quality-sertificate-1.png">
+</a>
+
+
+  <div class="example gc3">
+    <h3>Modal popup</h3>
+    <p>A modal popup disables the usual ways to close popups.</p>
+    <div class="html-code">
+      <a class="popup-modal" href="#test-modal">Open modal</a>
+
+      <div id="test-modal" class="mfp-hide white-popup-block">
+        <h1>Modal dialog</h1>
+        <p>You won't be able to dismiss this by usual means (escape or
+          click button), but you can close it programatically based on
+          user choices or actions.</p>
+        <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function () {
+        $('.popup-modal').magnificPopup({
+          type: 'inline',
+          preloader: false,
+          focus: '#username',
+          modal: true
+        });
+        $(document).on('click', '.popup-modal-dismiss', function (e) {
+          e.preventDefault();
+          $.magnificPopup.close();
+        });
+      });
+    </script>
+  </div>
