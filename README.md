@@ -1,7 +1,7 @@
 # Машинное обучение и анализ данных
-Данный репозиторий содержит основные работы по специализации <a href="https://www.coursera.org/programs/hse-corona-response-5-humnb?currentTab=MY_COURSES&productId=78tKup5eEeW5ewqD-4pukQ&productType=s12n&showMiniModal=true" >Машинное обучение и анализ данных</a>.
+Данный репозиторий содержит основные работы по специализации <a href="https://www.coursera.org/specializations/machine-learning-data-analysis" >Машинное обучение и анализ данных</a>.
 
-Первый курс: ***Библиотеки Python и линейная алгебра*** (сертификат) напомнил общие аспекты __линейной алгебры__, __матричные разложения__, __градиент__ для гладких функций и методы оптимизации негладких, основу __теории вероятности__ и __статистики__.  
+Первый курс: ***Библиотеки Python и линейная алгебра*** (<a href="https://github.com/Kirill-Shokhin/Coursera-Machine-Learning-and-Data-Analysis/blob/main/Обучение%20на%20размеченных%20данных/Coursera%20Certificate%20Обучение%20на%20размеченных%20данных.pdf" >сертификат</a>) напомнил общие аспекты __линейной алгебры__, __матричные разложения__, __градиент__ для гладких функций и методы оптимизации негладких, основу __теории вероятности__ и __статистики__.  
 
 Второй курс: ***Машинное обучение и линейные модели*** (сертификат) рассказал про __метрики качества__ для задач регрессии и классификации, научил __регуляризации__ для борьбы с переобучением, а также __кросс-валидации__ и __отложенной ваборке__. Обучил построению линейных моделей с помощью __стохастического градиентного спуска__ и __метода максимального правдоподобия__. Далее поднимался вопрос необходимости __масштабирования признаков__ и __стратификации__ + подробное изложение __scikit-learn__. Затем: __решающие деревья__, __случайный лес__, __бэггинг__ и __градиентный бустинг__. Финал состоял из краткого введения в __нейронные сети__, __байесовские классификацию и регрессию__, __метрические алгоритмы и SVM__.
 
@@ -12,61 +12,5 @@
 Пятый курс: ***Прикладные задачи анализа данных*** (сертификат) обучил __прогнозированию временных рядов__ с помощью модели __ARIMA__, с учетом, также, регрессионного подхода; __анализу поведения пользователей__. Дал базу по __компьютерному зрению__, __ранжированию__ и __рекомендательным системам__. А также достаточно глубоко погрузил в тему __анализа текстов__, рассказав про __word2vec__ и __рекурентные сети__.
 
 
-<a href="https://nbviewer.jupyter.org/github/Kirill-Shokhin/Coursera-ML-/blob/main/Прикладные%20задачи%20анализа%20данных/Прогнозирование%20уровня%20средней%20заработной%20платы%20в%20России.ipynb" >Прогнозирование средней з\п в России</a>
-
-
-
-<link rel="stylesheet" href="libs/magnific/magnific-popup.css">
-<script src="libs/magnific/jquery.magnific-popup.js"></script>
-
-$('.gallery').magnificPopup({type: 'image'});
-
-Пролистывание:
-$(document).ready(function(){
-
-	$('.gallery').magnificPopup({
-		type: 'image',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] 
-		},
-	});
-
-});
-
-
-<a class="gallery" href="img/quality-sertificate-1.png">
-<img src="img/quality-sertificate-1.png">
-</a>
-
-
-  <div class="example gc3">
-    <h3>Modal popup</h3>
-    <p>A modal popup disables the usual ways to close popups.</p>
-    <div class="html-code">
-      <a class="popup-modal" href="#test-modal">Open modal</a>
-
-      <div id="test-modal" class="mfp-hide white-popup-block">
-        <h1>Modal dialog</h1>
-        <p>You won't be able to dismiss this by usual means (escape or
-          click button), but you can close it programatically based on
-          user choices or actions.</p>
-        <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
-      </div>
-    </div>
-    <script type="text/javascript">
-      $(function () {
-        $('.popup-modal').magnificPopup({
-          type: 'inline',
-          preloader: false,
-          focus: '#username',
-          modal: true
-        });
-        $(document).on('click', '.popup-modal-dismiss', function (e) {
-          e.preventDefault();
-          $.magnificPopup.close();
-        });
-      });
-    </script>
-  </div>
+Может быть интересно:
+ - <a href="https://nbviewer.jupyter.org/github/Kirill-Shokhin/Coursera-ML-/blob/main/Прикладные%20задачи%20анализа%20данных/Прогнозирование%20уровня%20средней%20заработной%20платы%20в%20России.ipynb" >Прогнозирование средней з\п в России</a>
